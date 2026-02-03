@@ -146,6 +146,8 @@ ul {
 .btn.primary {
     background-color: var(--primary-color);
     color: var(--white);
+    background-image: none;
+    /* Reset for button */
 }
 
 .btn.primary:hover {
@@ -256,6 +258,27 @@ ul {
     background-size: cover;
     background-position: center;
     position: relative;
+    /* Default background if class is missing, though specific classes below override it */
+    background-color: #eee;
+}
+
+/* Product Specific Images */
+/* Using both local paths (primary) and potential fallbacks if needed. 
+   Verify if 'CSS/' path is consistent with your folder structure. */
+.product-image.apple {
+    background-image: url('CSS/apples.jpg');
+}
+
+.product-image.green-veggies {
+    background-image: url('CSS/greenveggies.jpg');
+}
+
+.product-image.milk {
+    background-image: url('CSS/milk.jpg');
+}
+
+.product-image.grocery-pack {
+    background-image: url('CSS/grocery.jpg');
 }
 
 .product-image .badge {
