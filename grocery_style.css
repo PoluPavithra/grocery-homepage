@@ -97,7 +97,7 @@ ul {
 /* Hero Section */
 .hero {
     height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./CSS/grocery.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('grocery.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -266,19 +266,19 @@ ul {
 /* Using both local paths (primary) and potential fallbacks if needed. 
    Verify if 'CSS/' path is consistent with your folder structure. */
 .product-image.apple {
-    background-image: url('./CSS/apples.jpg');
+    background-image: url('apples.jpg');
 }
 
 .product-image.green-veggies {
-    background-image: url('./CSS/greenveggies.jpg');
+    background-image: url('greenveggies.jpg');
 }
 
 .product-image.milk {
-    background-image: url('./CSS/milk.jpg');
+    background-image: url('milk.jpg');
 }
 
 .product-image.grocery-pack {
-    background-image: url('./CSS/grocery.jpg');
+    background-image: url('grocery.jpg');
 }
 
 .product-image .badge {
